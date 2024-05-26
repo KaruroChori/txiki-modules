@@ -1,8 +1,8 @@
 ## Modules
 
 Somewhat stable:
-- [Typebox](https://github.com/KaruroChori/typebox-txiki-module) based on [typebox](https://github.com/sinclairzx81/typebox)
-- [Commander](https://github.com/KaruroChori/commander-txiki-module) based on [commander.js](https://github.com/tj/commander.js)
+- [Typebox](https://github.com/KaruroChori/typebox-txiki-module) based on [typebox](https://github.com/sinclairzx81/typebox), just a thin wrapper.
+- [Commander](https://github.com/KaruroChori/commander-txiki-module) based on [commander.js](https://github.com/tj/commander.js). Major refactoring to make async and to avoid using native node modules.
 - [Demo](https://github.com/KaruroChori/demo-txiki-module) is just a basic skeleton repository for reference
 
 In progress:
