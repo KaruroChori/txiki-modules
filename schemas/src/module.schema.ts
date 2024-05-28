@@ -1,6 +1,7 @@
 import { Type as t } from "@sinclair/typebox"
 
 export default t.Object({
+    "$schema": t.Optional(t.String({ format: 'uri' }))
     "suggested-name": t.Optional(t.String({ description: 'The canonical name for the module when integrated in your distribution. It should be used to ensure maximal compatibility.' })),
     "module-version": t.Optional(t.Array(t.Integer(), { minItems: 3, maxItems: 3, description: 'The revision of the module specifications in use.' })),
     "runtime-version": t.Optional(t.Array(t.Integer(), { minItems: 3, maxItems: 3, description: 'The version of runtime this module was designed for.' })),
