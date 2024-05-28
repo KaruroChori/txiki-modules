@@ -3,8 +3,13 @@
   "version": "0.0.0",
   "description": "Documentation of txiki modules",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "gen-schemas": "bun run ./scripts/gen-schemas.ts"
+  },
   "license": "CC0-1.0",
   "dependencies": {},
-  "devDependencies": { "@sinclair/typebox": "^0.32.31" }
+  "devDependencies": {
+    "@sinclair/typebox": "^0.32.31",
+    "@types/bun": "^1.1.3"
+  }
 }
