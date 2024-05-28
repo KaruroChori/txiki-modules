@@ -1,0 +1,10 @@
+{
+  "name": "txiki-modules-docs",
+  "version": "0.0.0",
+  "description": "Documentation of txiki modules",
+  "private": true,
+  "scripts": {},
+  "license": "CC0-1.0",
+  "dependencies": {},
+  "devDependencies": { "@sinclair/typebox": "^0.32.31" }
+}
