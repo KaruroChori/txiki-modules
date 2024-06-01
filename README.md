@@ -71,7 +71,7 @@ While the `js` part requires to be bundled, you can use any process you want bef
 A common workflow is to work with multiple typescript files, and generate both js and type declarations from them in a bundled format.
 
 To get started, you might find this [demo module](https://github.com/KaruroChori/demo-txiki-module) helpful, as it provides a basic reference implementation for a trivial module.  
-I also covered the topic of porting existing JS libraries as modules & a broader range of issues you might encounter in [here](./docs/how-to-port.md).
+I also covered the topic of porting existing JS libraries as modules & a broader range of issues you might encounter in [here](./docs/how-to.md).
 
 ## Resources
 
