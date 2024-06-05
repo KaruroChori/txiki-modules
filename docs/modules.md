@@ -16,6 +16,7 @@ However, there is no proper test-suite integration nor automated pipeline runnin
 
 Development started, not usable yet.
 
+- [klipper](https://github.com/KaruroChori/klipper-txiki-module): low level serial wrapper to easily interface with klipper MCUs.
 - [lvgl](https://github.com/KaruroChori/lvgl-txiki-module): native module to use lvgl via react bindings.
 
 ## Planned
