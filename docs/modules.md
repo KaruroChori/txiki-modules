@@ -15,11 +15,12 @@ However, there is no proper test-suite integration nor automated pipeline runnin
 ## Ongoing
 
 Development started, not usable yet.
-
 - [klipper](https://github.com/KaruroChori/klipper-txiki-module): low level serial wrapper to easily interface with klipper MCUs.
-- [lvgl](https://github.com/KaruroChori/lvgl-txiki-module): native module to use lvgl via react bindings.
 
 ## Planned
 
 - A porting of [zx](https://github.com/google/zx) or a custom implementation based on a similar principle like bun did.
 - A porting of [drizzle](https://orm.drizzle.team/) to pair it up with the embedded sqlite driver. Deps: https://github.com/saghul/txiki.js/pull/536
+
+## Dropped
+- ~[lvgl](https://github.com/KaruroChori/lvgl-txiki-module): native module to use lvgl via react bindings.~ not feasible without extending the module design beyond what is reasonable for a single instance
