@@ -11,11 +11,11 @@ export default t.Object({
     "native-deps": t.Optional(t.Record(
         t.String({ description: 'Native module unique name. If no `symbols` sub-field is provided, this name must be the same of the only exported lib.' }),
         t.Object({
-            repo: t.String({ format: 'uri', description: 'git module uri' }),
-            branch: t.String({ description: 'Branch or tag to select' }),
+            repo: t.Optional(t.String({ format: 'uri', description: 'git module uri' })),
+            branch: t.Optional(t.String({ description: 'Branch or tag to select', default: 'master' })),
             env: t.Optional(t.Record(t.String(), t.Object({}), { description: 'Set of options to set for the specific module' })),
             "raw-cmake": t.Optional(t.String({ description: 'Additional cmake directives to add which cannot be easily represented elsehow' })),
-            url: t.String({ description: "Alternative to repo/branch", format: 'uri' }),
+            url: t.Optional(t.String({ description: "Alternative to repo/branch", format: 'uri' })),
             symbols: t.Optional(t.Array(t.String(), { description: 'Explicit list of names for libs to be later linked to tjs' }))
         }, { additionalProperties: false })))
 }, { additionalProperties: false })
