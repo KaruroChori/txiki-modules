@@ -15,6 +15,7 @@ export default t.Object({
             branch: t.String({ description: 'Branch or tag to select' }),
             env: t.Optional(t.Record(t.String(), t.Object({}), { description: 'Set of options to set for the specific module' })),
             "raw-cmake": t.Optional(t.String({ description: 'Additional cmake directives to add which cannot be easily represented elsehow' })),
+            url: t.String({ description: "Alternative to repo/branch", format: 'uri' }),
             symbols: t.Optional(t.Array(t.String(), { description: 'Explicit list of names for libs to be later linked to tjs' }))
         }, { additionalProperties: false })))
 }, { additionalProperties: false })
