@@ -11,6 +11,7 @@ However, there is no proper test-suite integration nor automated pipeline runnin
 - [commander](https://github.com/KaruroChori/commander-txiki-module): based on [commander.js](https://github.com/tj/commander.js); a major refactoring to move the codebase from sync to async & to remove the dependencies from node native modules.
 - [serial](https://github.com/KaruroChori/serial-txiki-module): custom native module to configure serial devices (only for linux and possibly portable on other unix systems).
 - [demo](https://github.com/KaruroChori/demo-txiki-module): it is just a basic skeleton repository for reference; an example on how to structure your own project.
+- [http](https://github.com/KaruroChori/http-txiki-module): to be tested, since the original code does not come with examples.
 
 ## Ongoing
 
