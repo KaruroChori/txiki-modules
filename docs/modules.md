@@ -20,6 +20,7 @@ Development started, not usable yet.
 
 ## Planned
 
+- zlib
 - A porting of [zx](https://github.com/google/zx) or a custom implementation based on a similar principle like bun did.
 - A porting of [drizzle](https://orm.drizzle.team/) to pair it up with the embedded sqlite driver. Deps: https://github.com/saghul/txiki.js/pull/536
 
